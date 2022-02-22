@@ -1,7 +1,7 @@
 
  const getTheHelloWorld = async (req,res)=>{
      try {
-     res.send("Hello ")    
+     res.send("Hello world")    
      } catch (error) {
          console.log(error.message)
      }
